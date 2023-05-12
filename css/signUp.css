@@ -1,0 +1,81 @@
+body{
+    background: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.content{
+    width: 30vw;
+    margin-left: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 200px;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+form input{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    width: 25vw;
+}
+.labels{
+    display: flex;
+    flex-direction: column;
+
+}
+.names input{
+    width: 15vw;
+}
+.email{
+    margin-bottom: 20px;
+}
+.email label{
+    margin-right: 33px;
+}
+.useName{
+    margin-bottom: 20px;
+}
+.useName label{
+    margin-right: 2px;
+}
+.password{
+    margin-bottom: 20px;
+}
+.password label{
+    margin-right: 7px;
+}
+button{
+    width: 7vw;
+    padding: 5px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+form h2{
+    text-align: center;
+}

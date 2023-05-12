@@ -1,0 +1,41 @@
+body{
+    background: black;
+    color: rgb(254, 253, 253);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vw;
+}
+.welcome {
+    width: 40%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+input{
+    width: 25vw;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+button{
+    width: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 117px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
